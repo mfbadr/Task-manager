@@ -21,7 +21,11 @@ while(input != 'q'){
 input = prompt('Which list would you like to add a task to? (p)lay, (h)ome, (s)chool, or (q)uit? ');
 }
 
-console.log('Your play tasks are: ' + play);
-console.log('Your home tasks are: ' + home);
-console.log('Your school tasks are: ' + school);
+var p = play.toString()
+var h = home.toString()
+var s = school.toString()
+
+console.log('Your play tasks are: ' + chalk.green(p));
+console.log('Your home tasks are: ' + chalk.magenta(h));
+console.log('Your school tasks are: ' + chalk.cyan(s));
 
