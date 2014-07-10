@@ -24,7 +24,7 @@ input = prompt('Which list would you like to add a task to? (p)lay, (h)ome, (s)c
 //var p = play.toString()
 //var h = home.toString()
 //var s = school.toString()
-
+console.log('\n')
 console.log('Your play tasks are: ' + chalk.green(play));
 console.log('Your home tasks are: ' + chalk.magenta(home));
 console.log('Your school tasks are: ' + chalk.cyan(school));
